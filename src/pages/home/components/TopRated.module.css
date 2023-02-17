@@ -1,0 +1,20 @@
+.Movie {
+    position: relative;
+    border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 10px;
+      transition: box-shadow 0.3s ease;
+}
+.Movie:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.Image {
+    width: 100%;
+    min-height: 200px;
+}
+.Title {
+    text-align: center;
+    margin: 10px 0;
+    height: 25px;
+    overflow: hidden;
+}

@@ -1,0 +1,39 @@
+.Image {
+    width: 100%;
+    min-height: 200px;
+}
+
+.Title {
+    text-align: center;
+    margin: 10px 0;
+    height: 25px;
+    overflow: hidden;
+}
+
+.Movie {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.Movie:hover {
+  box-shadow: 20px 0 200px rgba(0, 0, 0, 0.3);
+}
+
+.Row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.my-4 {
+  margin-top: 2rem;
+}
